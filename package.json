@@ -1,6 +1,7 @@
 {
   "name": "@tummycrypt/tinyland-ip-location",
   "version": "0.2.2",
+  "private": true,
   "description": "IP geolocation, user-agent parsing, and visitor analytics",
   "type": "module",
   "license": "Zlib AND LicenseRef-Tinyland-Proprietary",
@@ -25,7 +26,6 @@
     "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "pnpm build && pnpm check:package",
     "check:package": "publint"
   },
   "keywords": [
@@ -38,7 +38,7 @@
   "author": "Tinyland.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinyland-inc/tinyland-ip-location.git"
+    "url": "git+https://github.com/xoxd-ai/tinyland-ip-location.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -50,13 +50,9 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "packageManager": "pnpm@10.13.1",
-  "homepage": "https://github.com/tinyland-inc/tinyland-ip-location",
+  "homepage": "https://github.com/xoxd-ai/tinyland-ip-location",
   "bugs": {
-    "url": "https://github.com/tinyland-inc/tinyland-ip-location/issues"
+    "url": "https://github.com/xoxd-ai/tinyland-ip-location/issues"
   }
 }
